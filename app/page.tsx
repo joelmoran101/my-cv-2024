@@ -1,4 +1,5 @@
 import Image from "next/image";
+import EnhancedCVTemplate from "@/components/enhanced-cv-template";
 
 export default function Home() {
   return (
