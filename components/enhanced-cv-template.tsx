@@ -1,3 +1,4 @@
+'use client';
 import { Mail, Phone, MapPin, Linkedin, Github, Printer } from 'lucide-react'
 import { useState } from 'react'
 import { Button } from './button'
@@ -115,8 +116,7 @@ export default function EnhancedCVTemplate() {
           <section>
             <h2 className="text-2xl font-semibold text-blue-800 mb-2">Professional Summary</h2>
             <p className="text-gray-600">
-              A brief, compelling summary of your professional background, key skills, and career objectives. This should be
-              tailored to the specific job or industry you're targeting.
+            A results-oriented and adaptable professional with a combined background in materials management, SAP expertise, and full-stack web development training. Possesses strong analytical and problem-solving skills, honed through experience in streamlining warehouse operations and implementing new systems. Passionate about continuous learning and thrives in finding solutions for complex issues.
             </p>
           </section>
 
@@ -124,12 +124,28 @@ export default function EnhancedCVTemplate() {
             <h2 className="text-2xl font-semibold text-blue-800 mb-4">Work Experience</h2>
             {[1, 2].map((job) => (
               <div key={job} className="mb-4">
-                <h3 className="text-xl font-medium text-gray-800">Job Title</h3>
-                <p className="text-gray-600">Company Name | Start Date - End Date</p>
+                <h3 className="text-xl font-medium text-gray-800">Warehouse Distribution Stream Expert (Alliance Team)</h3>
+                <p className="text-gray-600">Givaudan Deutschland GmbH | April 2021 – June 2023</p>
                 <ul className="list-disc list-inside text-gray-600 mt-2">
-                  <li>Key responsibility or achievement</li>
-                  <li>Another important contribution</li>
-                  <li>Quantifiable result or impact</li>
+                  <li>Led the training of warehouse and distribution personnel on SAP integration for newly acquired companies.</li>
+                  <li>Ensured smooth integration by collaborating with various departments and providing technical support.</li>
+                  <li>Suported one site in France a team with 15 people. Two sites in the UK. One in Germany, another in Vietnam and in the Netherlands </li>
+                </ul>
+                <h3 className="text-xl font-medium text-gray-800">Materials Management & Planning/Implementation, Key-User (SCM) for the Flex /Comarch ERM</h3>
+                <p className="text-gray-600">Josef Meeth GmbH & Co. KG | Feb 2018 – March 2021</p>
+                <ul className="list-disc list-inside text-gray-600 mt-2">
+                  <li>Restructured the warehouse layout and processes to optimize efficiency.</li>
+                  <li>Oversaw inbound deliveries and maintained quality control of raw materials.</li>
+                  <li>Part of the team responsible for the planning and implementation of the Flex/Comarch ERM</li>
+                </ul>
+                <h3 className="text-xl font-medium text-gray-800">SAP Power-User / 1st Level Support (DIS) and Warehouse Supervisor</h3>
+                <p className="text-gray-600">Givaudan Deutschland GmbH | June 2005 – Jan 2018</p>
+                <ul className="list-disc list-inside text-gray-600 mt-2">
+                  <li>Provided 1st line support for SAP users in the Distribution and Logistics department.</li>
+                  <li>Supervised warehouse operations, ensuring efficient inventory management and adherence to safety protocols.</li>
+                  <li>Actively participated in various SAP-related projects and global implementations.</li>
+                  <li>Contributed to process improvement by authoring job aids and participating in Kaizen (LEAN) initiatives.</li>
+                  <li>Led the implementation of a new VNA warehouse system for increased efficiency.</li>
                 </ul>
               </div>
             ))}
