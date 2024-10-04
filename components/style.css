@@ -1,0 +1,13 @@
+@media print {
+    header {
+        color: black!important;
+    }
+    /* .p-name {
+        font-size: 8px;
+    } */
+    .p-container {
+        margin: 0;
+        padding: 0;
+    }
+
+}

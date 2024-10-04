@@ -4,6 +4,7 @@ import { useState } from 'react'
 import { Button } from './button'
 import Image from 'next/image'
 import profileImageSrc from '../public/assets/images/Yin & Yang.png'
+import './style.css'
 
 export default function EnhancedCVTemplate() {
   const [showMore, setShowMore] = useState(false)
@@ -17,11 +18,11 @@ export default function EnhancedCVTemplate() {
   }
 
   return (
-    <div className="max-w-5xl mx-auto p-8 bg-gray-50 shadow-lg print:shadow-none">
+    <div className="max-w-5xl mx-auto p-container p-8 bg-gray-50 shadow-lg print:shadow-none">
       <header className="bg-gradient-to-r from-blue-800 to-blue-300 text-white p-6 rounded-t-lg print:break-inside-avoid">
         <div className="flex items-center justify-between">
           <div>
-            <h1 className="text-4xl font-bold">Joel Moran</h1>
+            <h1 className="text-4xl font-bold p-name">Joel Moran</h1>
             <p className="text-xl mt-2">Full Stack web Developer</p>
           </div>
           <div className="relative w-32 h-32 rounded-full overflow-hidden">
@@ -59,7 +60,7 @@ export default function EnhancedCVTemplate() {
         </div>
       </header>
 
-      <div className={`overflow-y-auto ${showMore ? 'max-h-screen' : 'max-h-[80vh]'} transition-all duration-500`}>
+      <div className={`overflow-y-auto transition-all duration-500`}>
         <div className="flex gap-6 p-6 bg-white rounded-b-lg">
           <aside className="w-1/3 space-y-6">
             <section>
@@ -143,10 +144,10 @@ export default function EnhancedCVTemplate() {
           </main>
         </div>
       </div>
-      <div className="fixed bottom-0 left-8 p-4">
+      <div className="fixed bottom-0 left-8 p-4 print:hidden">
         <Button
           onClick={handlePrint}
-          className="mt-4 bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700 transition-colors print:hidden"
+          className="mt-4 bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700 transition-colors"
         >
           <Printer className="w-4 h-4 inline-block mr-2" />
           Print CV
