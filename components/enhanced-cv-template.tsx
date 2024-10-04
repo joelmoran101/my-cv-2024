@@ -3,7 +3,7 @@ import { Mail, Phone, MapPin, Linkedin, Github, Printer } from 'lucide-react'
 import { useState } from 'react'
 import { Button } from './button'
 import Image from 'next/image'
-import profileImageSrc from '../public/assets/images/solitude.png'
+import profileImageSrc from '../public/assets/images/Yin & Yang.png'
 
 export default function EnhancedCVTemplate() {
   const [showMore, setShowMore] = useState(false)
@@ -38,11 +38,11 @@ export default function EnhancedCVTemplate() {
         <div className="mt-4 flex flex-wrap gap-4">
           <div className="flex items-center">
             <Mail className="w-4 h-4 mr-2" />
-            joelmoran.ph@gmail.com
+            <a href="mailto:joelmoran.ph@gmail.com">joelmoran.ph@gmail.com</a>
           </div>
           <div className="flex items-center">
             <Phone className="w-4 h-4 mr-2" />
-            +49 178 3849 515
+            <a href="tel:+491783849515">+49 178 3849 515</a>
           </div>
           <div className="flex items-center">
             <MapPin className="w-4 h-4 mr-2" />
@@ -50,11 +50,11 @@ export default function EnhancedCVTemplate() {
           </div>
           <div className="flex items-center">
             <Linkedin className="w-4 h-4 mr-2" />
-            www.linkedin.com/in/joel-moran-ph
+            <a href="http://www.linkedin.com/in/joel-moran-ph">www.linkedin.com/in/joel-moran-ph</a>
           </div>
           <div className="flex items-center">
             <Github className="w-4 h-4 mr-2" />
-            https://github.com/joelmoran101/joelmoran101
+            <a href="https://github.com/joelmoran101/joelmoran101">https://github.com/joelmoran101/joelmoran101</a>
           </div>
         </div>
       </header>
