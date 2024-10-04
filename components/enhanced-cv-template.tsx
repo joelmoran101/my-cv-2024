@@ -70,8 +70,8 @@ export default function EnhancedCVTemplate() {
             <section>
               <h2 className="text-2xl font-semibold text-blue-800 mb-2">Skills</h2>
               <div className="flex flex-wrap gap-2">
-                {['Frontend Technologies: HTML, JavaScript, CSS, React', 'Backend Technologies: Node, Express', 'Databases: MongoDB, cloudinary','Redux', 'Git: Github', 'Next.js', 'Testing Tools: vitest, jest', 'CMS: WordPress & Joomla', 'Formik', 'Tailwind', 'typescript', 'GIMP',].map((skill) => (
-                  <span key={skill} className="bg-blue-100 text-blue-800 px-3 py-1 rounded-full text-sm">
+                {['Frontend Technologies: HTML, JavaScript, CSS, React, Tailwind, Redux, Formik', 'Backend Technologies: Node, Express', 'Databases: MongoDB, cloudinary', 'CMS: WordPress & Joomla', 'Testing Tools: vitest, jest', 'Git: Github', 'typescript', 'Next.js', 'GIMP',].map((skill) => (
+                  <span key={skill} className="bg-blue-100 text-blue-800 px-3 py-1 rounded-lg text-sm">
                     {skill}
                   </span>
                 ))}
