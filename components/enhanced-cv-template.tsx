@@ -25,8 +25,8 @@ export default function EnhancedCVTemplate() {
               <Image
                 src={profileImageSrc}
                 alt="Profile"
-                layout="fill"
-                objectFit="cover"
+                fill
+                style={{ objectFit: 'cover' }}
               />
             </div>
           </div>
