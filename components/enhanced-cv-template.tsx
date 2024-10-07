@@ -92,6 +92,7 @@ const translations = {
           "Provided 1st line support for SAP users in the Distribution and Logistics department.",
           "Supervised warehouse operations, ensuring efficient inventory management and adherence to safety protocols.",
           "Actively participated in various SAP-related projects and global implementations.",
+          "Led the training of warehouse and distribution personnel for SAP integration at various branches in Naarden, Netherlands; Singapore; São Paulo, Brazil; Buenos Aires, Argentina; Johannesburg, South Africa; Mako, Hungary; and Cairo, Egypt.",
           "Contributed to process improvement by authoring job aids and participating in Kaizen (LEAN) initiatives.",
           "Led the implementation of a new VNA warehouse (Very Narrow Alley)system for increased efficiency."
         ]
@@ -137,7 +138,7 @@ const translations = {
     github: "https://github.com/joelmoran101/joelmoran101",
     educationDetails: [
       {
-        title: "Bedeutende Kurse im Rahmen eines Studiums der AB Philosophie abgeschlossen",
+        title: "Bedeutende Kurse im Rahmen eines Studiums der AB Philosophie teilgenommen.",
         institution: "Universität der Philippinen, Los Banos",
         years: "1978 - 1982",
         details: "Mitglied der Beta Kappa Bruderschaft"
@@ -146,10 +147,10 @@ const translations = {
         title: "Weiterführende Studien in östlicher Philosophie und Theologie zur Vertiefung des Verständnisses von Lebensprinzipien",
         institution: "Notre Dame Universität, Cotabato City Philippinen",
         years: "1983 - 1984",
-        details: "Junior Oblaten der Unbefleckten Empfängnis, Missionskongregation"
+        details: "Junior Oblates von Mary Immaculate, Missionarische Gemeinschaft"
       },
       {
-        title: "Einjährige Immersion in östlicher Philosophie in verschiedenen Ashrams in Indien",
+        title: "Einjährige Eintauchen in östlicher Philosophie in verschiedenen Ashrams in Indien",
         years: "1984 - 1985"
       }
     ],
@@ -159,7 +160,7 @@ const translations = {
       title: "Digitalbotschafter",
       organization: "Digitalbotschafter RLP",
       years: "aktiv seit 2020",
-      description: "Unterstützung anderer, insbesondere Senioren, bei der Nutzung des Internets und anderer digitaler Technologien"
+      description: "Unterstützung anderer, insbesondere Senioren, bei der Nutzung des Internets und anderer digitaler Technologien, z. Beispiel: Handy Nutzung, Social Media, Video Telefonie, etc."
     },
     environmentalWorkDetails: [
       {
@@ -177,7 +178,7 @@ const translations = {
     workExperienceTitle: "Berufserfahrung",
     workExperienceData: [
       {
-        title: "Experte für Lagerverteilung (Alliance Team)",
+        title: "Stream-Experte für Lagerverwaltung (Alliance Team)",
         company: "Givaudan Deutschland GmbH",
         period: "April 2021 – Juni 2023",
         responsibilities: [
@@ -204,6 +205,7 @@ const translations = {
           "Bot First-Line-Support für SAP-Benutzer in der Vertriebs- und Logistikabteilung.",
           "Überwachte Lageroperationen, sicherte effizientes Bestandsmanagement und Einhaltung von Sicherheitsprotokollen.",
           "Aktive Teilnahme an verschiedenen SAP-bezogenen Projekten und globalen Implementierungen.",
+          " Leitete die Schulung von Lager- und Vertriebspersonal zur SAP-Integration an verschiedene Niederlassungen in Naarden, NL; Singapure; Sao Paolo, Brazilien; Buenos Aires, Argentinien; Johannesburg, Süd-Afrika; Mako, Ungarn; und Cairo, Egypten.",
           "Trug zur Prozessverbesserung bei durch Erstellung von Arbeitsanweisungen und Teilnahme an Kaizen (LEAN) Initiativen.",
           "Leitete die Implementierung eines neuen VNA-Lagersystems (Very Narrow Aisle) für erhöhte Effizienz."
         ]
