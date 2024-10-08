@@ -92,7 +92,7 @@ const translations = {
           "Provided 1st line support for SAP users in the Distribution and Logistics department.",
           "Supervised warehouse operations, ensuring efficient inventory management and adherence to safety protocols.",
           "Actively participated in various SAP-related projects and global implementations.",
-          "Led the training of warehouse and distribution personnel for SAP integration at various branches in Naarden, Netherlands; Singapore; São Paulo, Brazil; Buenos Aires, Argentina; Johannesburg, South Africa; Mako, Hungary;Mumbai, India; and Cairo, Egypt.",
+          "Led the training of warehouse and distribution personnel for SAP integration at various branches in Naarden, Netherlands; Singapore; São Paulo, Brazil; Buenos Aires, Argentina; Johannesburg, South Africa; Mako, Hungary; Mumbai, India; and Cairo, Egypt.",
           "Contributed to process improvement by authoring job aids and participating in Kaizen (LEAN) initiatives.",
           "Led the implementation of a new VNA warehouse (Very Narrow Alley)system for increased efficiency."
         ]
