@@ -92,7 +92,7 @@ const translations = {
           "Provided 1st line support for SAP users in the Distribution and Logistics department.",
           "Supervised warehouse operations, ensuring efficient inventory management and adherence to safety protocols.",
           "Actively participated in various SAP-related projects and global implementations.",
-          "Led the training of warehouse and distribution personnel for SAP integration at various branches in Naarden, Netherlands; Singapore; São Paulo, Brazil; Buenos Aires, Argentina; Johannesburg, South Africa; Mako, Hungary; and Cairo, Egypt.",
+          "Led the training of warehouse and distribution personnel for SAP integration at various branches in Naarden, Netherlands; Singapore; São Paulo, Brazil; Buenos Aires, Argentina; Johannesburg, South Africa; Mako, Hungary;Mumbai, India; and Cairo, Egypt.",
           "Contributed to process improvement by authoring job aids and participating in Kaizen (LEAN) initiatives.",
           "Led the implementation of a new VNA warehouse (Very Narrow Alley)system for increased efficiency."
         ]
@@ -205,7 +205,7 @@ const translations = {
           "Bot First-Line-Support für SAP-Benutzer in der Vertriebs- und Logistikabteilung.",
           "Überwachte Lageroperationen, sicherte effizientes Bestandsmanagement und Einhaltung von Sicherheitsprotokollen.",
           "Aktive Teilnahme an verschiedenen SAP-bezogenen Projekten und globalen Implementierungen.",
-          " Leitete die Schulung von Lager- und Vertriebspersonal zur SAP-Integration an verschiedene Niederlassungen in Naarden, NL; Singapure; Sao Paolo, Brazilien; Buenos Aires, Argentinien; Johannesburg, Süd-Afrika; Mako, Ungarn; und Cairo, Egypten.",
+          " Leitete die Schulung von Lager- und Vertriebspersonal zur SAP-Integration an verschiedene Niederlassungen in Naarden, NL; Singapure; Sao Paolo, Brazilien; Buenos Aires, Argentinien; Johannesburg, Süd-Afrika; Mako, Ungarn; Mumbai, Indien; und Cairo, Egypten.",
           "Trug zur Prozessverbesserung bei durch Erstellung von Arbeitsanweisungen und Teilnahme an Kaizen (LEAN) Initiativen.",
           "Leitete die Implementierung eines neuen VNA-Lagersystems (Very Narrow Aisle) für erhöhte Effizienz."
         ]
