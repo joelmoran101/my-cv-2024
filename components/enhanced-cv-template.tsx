@@ -3,6 +3,7 @@ import { Mail, Phone, MapPin, Linkedin, Github, Printer } from 'lucide-react'
 import { Button } from './button'
 import Image from 'next/image'
 import profileImageSrc from '../public/assets/images/Profile Picture.jpg'
+import qrCodeSrc from '../public/assets/images/QR code for my CV.png';
 import './style.css'
 import { useLanguage } from './LanguageContext';
 
@@ -355,10 +356,24 @@ export default function EnhancedCVTemplate() {
               </ul>
             </div>
               ))}
+
+            <div className="qr-code-container">
+                    <Image
+                      src={qrCodeSrc}
+                      alt="QR Code for the CV URL"
+                      width={128}
+                      height={128}
+                    />
+                    <h3>Scan the QR code if you want to view this CV online</h3>
+                  </div>
+
             </section>
           </main>
         </div>
       </div>
+
+     
+
       <div className="fixed bottom-0 left-8 p-4 print:hidden">
         <Button
           onClick={handlePrint}
