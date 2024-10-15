@@ -13,6 +13,7 @@ const translations = {
     title: "Full Stack Web Developer",
     education: "Education",
     skills: "Skills",
+    languages: "Languages",
     certificates: "Certificates",
     communityWork: "Community Volunteer Work",
     environmentalWork: "Environmental Protection and Sustainable Development NGO Involvements",
@@ -26,23 +27,28 @@ const translations = {
     github: "https://github.com/joelmoran101/joelmoran101",
     educationDetails: [
       {
-        title: "Completed significant coursework towards a degree in AB Philosophy",
-        institution: "University of the Philippines, Los Banos",
-        years: "1978 - 1982",
-        details: "Beta Kappa Fraternity member"
+        title: "One Year Immersion in Eastern Philosophy at different Ashrams in India",
+        years: "1984 - 1985"
       },
+
       {
         title: "Pursued further studies in Eastern Philosophy and Theology to enhance understanding of life's principles",
         institution: "Notre Dame University, Cotabato City Philippines",
         years: "1983 - 1984",
         details: "Junior Oblates of Mary Immaculate, Missionary Congregation"
       },
+
       {
-        title: "One Year Immersion in Eastern Philosophy at different Ashrams in India",
-        years: "1984 - 1985"
+        
+        title: "Completed significant coursework towards a degree in AB Philosophy",
+        institution: "University of the Philippines, Los Banos",
+        years: "1978 - 1982",
+        details: "Beta Kappa Fraternity member"
       }
+     
     ],
     skillsList: ['Frontend Technologies: HTML, JavaScript, CSS, React, Tailwind, Redux, Formik', 'Backend Technologies: Node, Express', 'Databases: MongoDB, Cloudinary', 'CMS: WordPress & Joomla', 'Testing Tools: vitest, jest', 'Git: Github', 'typescript', 'Next.js', 'GIMP'],
+    languagesList: ['English - (C1): Advanced level, highly proficient in both written and spoken communication.', 'German - (B2): Upper-intermediate, conversationally fluent and comfortable in professional settings.', 'Spanish - basic level', 'Italian - basic level', 'Tagalog - mother tongue'],
     certificatesList: ['LEAN Yellow Belt', 'First Aid'],
     communityWorkDetails: {
       title: "Digital Botschafter",
@@ -58,7 +64,7 @@ const translations = {
       },
       {
         organization: "Manitou Foundation, Crestone CO, USA",
-        years: "1986 - 1990",
+        years: "1994 - 1995",
         description: "Guest co-coordinator for a summer camp for difficult teenagers"
       }
     ],
@@ -126,6 +132,7 @@ const translations = {
     title: "Fullstack-Webentwickler",
     education: "Ausbildung",
     skills: "Fähigkeiten",
+    languages: "Sprachen",
     certificates: "Zertifikate",
     communityWork: "Ehrenamtliche Arbeit",
     environmentalWork: "Umweltschutz und nachhaltige Entwicklung NGO-Beteiligungen",
@@ -156,6 +163,7 @@ const translations = {
       }
     ],
     skillsList: ['Frontend-Technologien: HTML, JavaScript, CSS, React, Tailwind, Redux, Formik', 'Backend-Technologien: Node, Express', 'Datenbanken: MongoDB, Cloudinary', 'CMS: WordPress & Joomla', 'Test-Tools: vitest, jest', 'Git: Github', 'TypeScript', 'Next.js', 'GIMP'],
+    languagesList: ['Englisch - (C1): Fortgeschrittenes Niveau, sehr kompetent in sowohl schriftlicher als auch mündlicher Kommunikation.', 'Deutsch - (B2): Fortgeschritten, konversationell fließend und sicher in beruflichen Umgebungen.', 'Spanisch - Grundkenntnisse', 'Italienisch - Grundkenntnisse', 'Tagalog - Muttersprache'],
     certificatesList: ['LEAN Gelber Gürtel', 'Erste Hilfe'],
     communityWorkDetails: {
       title: "Digitalbotschafter",
@@ -288,8 +296,34 @@ export default function EnhancedCVTemplate() {
       </header>
 
       <div className={`overflow-y-auto transition-all duration-500`}>
-        <div className="flex gap-6 p-6 bg-white rounded-b-lg">
+      <div className="flex gap-6 p-6 bg-white rounded-b-lg">
+
           <aside className="w-1/3 space-y-6">
+
+
+            <section>
+              <h2 className="text-2xl font-semibold text-blue-800 mb-2">{t.skills}</h2>
+              <div className="flex flex-wrap gap-2">
+                {t.skillsList.map((skill, index) => (
+                  <span key={index} className="bg-blue-100 text-blue-800 px-3 py-1 rounded-lg text-sm">
+                    {skill}
+                  </span>
+                ))}
+              </div>        
+            </section>
+
+            <section>
+              <h2 className="text-2xl font-semibold text-blue-800 mb-2">{t.languages}</h2>
+              <div className="flex flex-wrap gap-2">
+                {t.languagesList.map((language, index) => (
+                  <span key={index} className="bg-blue-100 text-blue-800 px-3 py-1 rounded-lg text-sm">
+                    {language}
+                  </span>
+                ))}
+              </div>
+          
+            </section>
+
             <section>
               <h2 className="text-2xl font-semibold text-blue-800 mb-2">{t.education}</h2>
               {t.educationDetails.map((edu, index) => (
@@ -302,16 +336,6 @@ export default function EnhancedCVTemplate() {
               ))}
             </section>
 
-            <section>
-              <h2 className="text-2xl font-semibold text-blue-800 mb-2">{t.skills}</h2>
-              <div className="flex flex-wrap gap-2">
-                {t.skillsList.map((skill, index) => (
-                  <span key={index} className="bg-blue-100 text-blue-800 px-3 py-1 rounded-lg text-sm">
-                    {skill}
-                  </span>
-                ))}
-              </div>
-            </section>
 
             <section>
               <h2 className="text-2xl font-semibold text-blue-800 mb-2">{t.certificates}</h2>
