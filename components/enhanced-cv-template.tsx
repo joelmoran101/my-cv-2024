@@ -16,7 +16,7 @@ const translations = {
     languages: "Languages",
     certificates: "Certificates",
     communityWork: "Community Volunteer Work",
-    environmentalWork: "Environmental Protection and Sustainable Development NGO Involvements",
+    environmentalWork: "NGO Involvements: Environmental Protection and Sustainable Development Initiatives",
     professionalSummary: "Professional Summary",
     workExperience: "Work Experience",
     printCV: "Print CV",
@@ -312,7 +312,7 @@ export default function EnhancedCVTemplate() {
               </div>        
             </section>
 
-            <section>
+            <section className=''languages-section>
               <h2 className="text-2xl font-semibold text-blue-800 mb-2">{t.languages}</h2>
               <div className="flex flex-wrap gap-2">
                 {t.languagesList.map((language, index) => (
@@ -325,7 +325,7 @@ export default function EnhancedCVTemplate() {
             </section>
 
             <section>
-              <h2 className="text-2xl font-semibold text-blue-800 mb-2">{t.education}</h2>
+              <h2 className="education-title text-2xl font-semibold text-blue-800 mb-2">{t.education}</h2>
               {t.educationDetails.map((edu, index) => (
                 <div key={index}>
                   <h3 className="text-lg font-medium text-gray-800">{edu.title}</h3>

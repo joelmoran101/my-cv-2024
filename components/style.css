@@ -1,3 +1,7 @@
+:root {
+    --language: 'en';
+}
+
 .qr-code-container {
     display: none;
 }
@@ -25,6 +29,16 @@
         max-height: calc(200vh - 40px); /* Adjust based on your header height */
         overflow: hidden;
     }
+
+    .languages-section {
+        page-break-after: always;
+      }
+    .education-title {
+        page-break-before: always;
+      }
+    .ngo-title {
+        page-break-before: always;
+      }
 
     body {
         margin: 0;
