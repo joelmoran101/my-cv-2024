@@ -47,8 +47,8 @@ const translations = {
       }
      
     ],
-    skillsList: ['Frontend Technologies: HTML, JavaScript, CSS, React, Tailwind, Redux, Formik', 'Backend Technologies: Node, Express', 'Databases: MongoDB, Cloudinary', 'CMS: WordPress & Joomla', 'Testing Tools: vitest, jest', 'Git: Github', 'typescript', 'Next.js', 'GIMP'],
-    languagesList: ['English - (C1): Advanced level, highly proficient in both written and spoken communication.', 'German - (B2): Upper-intermediate, conversationally fluent and comfortable in professional settings.', 'Spanish - basic level', 'Italian - basic level', 'Tagalog - mother tongue'],
+    skillsList: ['Digital Communication & Relevant Project Planning Tools and Apps: Power Point, Excel, ,Snagit, GIMP, Doodly, Paint, Greenshot, Zoom, Skype, M365 ...' , 'Project Management: "Very Narrow Alley" (VNA) Semi-Automatic Warehouse. Represented the local business interests and coordinated communications between different team players.', 'Training & Workshop Facilitation: As DIS Stream Expert and SAP Power User. Trained the trainors and End-Users in the Warehouse / Distribution departments of the different sites worldwide.', 'Frontend Technologies: HTML, JavaScript, CSS, React, Tailwind, Redux, Formik', 'Backend Technologies: Node, Express', 'Databases: MongoDB, Cloudinary', 'CMS: WordPress & Joomla', 'Testing Tools: vitest, jest', 'Git: Github', 'typescript', 'Next.js'],
+    languagesList: ['English - Advanced level, highly proficient in both written and spoken communication.', 'German - Upper-intermediate, conversationally fluent and comfortable in professional settings.', 'Spanish - basic level', 'Italian - basic level', 'Tagalog - mother tongue'],
     certificatesList: ['LEAN Yellow Belt', 'First Aid'],
     communityWorkDetails: {
       title: "Digital Botschafter",
@@ -162,8 +162,8 @@ const translations = {
         years: "1984 - 1985"
       }
     ],
-    skillsList: ['Frontend-Technologien: HTML, JavaScript, CSS, React, Tailwind, Redux, Formik', 'Backend-Technologien: Node, Express', 'Datenbanken: MongoDB, Cloudinary', 'CMS: WordPress & Joomla', 'Test-Tools: vitest, jest', 'Git: Github', 'TypeScript', 'Next.js', 'GIMP'],
-    languagesList: ['Englisch - (C1): Fortgeschrittenes Niveau, sehr kompetent in sowohl schriftlicher als auch mündlicher Kommunikation.', 'Deutsch - (B2): Fortgeschritten, konversationell fließend und sicher in beruflichen Umgebungen.', 'Spanisch - Grundkenntnisse', 'Italienisch - Grundkenntnisse', 'Tagalog - Muttersprache'],
+    skillsList: ['Digitale Kommunikation & Relevante Projektplanungstools und Apps: PowerPoint, Excel, Snagit, GIMP, Doodly, Paint, Greenshot, Zoom, Skype, M365...', 'Projektmanagement: „Sehr Schmale Gasse“ (Very Narrow Alley - VNA) teilautomatisches Lager. Vertrat die lokalen Geschäftsinteressen und koordinierte die Kommunikation zwischen den verschiedenen Teammitgliedern.', 'Schulung & Workshop-Moderation: Als DIS Stream-Experte und SAP Power User. Schulung der Trainer und Endbenutzer in den Lager-/Vertriebsabteilungen der verschiedenen Standorte weltweit.', 'Frontend-Technologien: HTML, JavaScript, CSS, React, Tailwind, Redux, Formik', 'Backend-Technologien: Node, Express', 'Datenbanken: MongoDB, Cloudinary', 'CMS: WordPress & Joomla', 'Test-Tools: vitest, jest', 'Git: Github', 'TypeScript', 'Next.js', 'GIMP'],
+    languagesList: ['Englisch - Fortgeschrittenes Niveau, sehr kompetent in sowohl schriftlicher als auch mündlicher Kommunikation.', 'Deutsch - Fortgeschritten, konversationell fließend und sicher in beruflichen Umgebungen.', 'Spanisch - Grundkenntnisse', 'Italienisch - Grundkenntnisse', 'Tagalog - Muttersprache'],
     certificatesList: ['LEAN Gelber Gürtel', 'Erste Hilfe'],
     communityWorkDetails: {
       title: "Digitalbotschafter",
@@ -299,8 +299,6 @@ export default function EnhancedCVTemplate() {
       <div className="flex gap-6 p-6 bg-white rounded-b-lg">
 
           <aside className="w-1/3 space-y-6">
-
-
             <section>
               <h2 className="text-2xl font-semibold text-blue-800 mb-2">{t.skills}</h2>
               <div className="flex flex-wrap gap-2">
@@ -325,19 +323,6 @@ export default function EnhancedCVTemplate() {
             </section>
 
             <section>
-              <h2 className="education-title text-2xl font-semibold text-blue-800 mb-2">{t.education}</h2>
-              {t.educationDetails.map((edu, index) => (
-                <div key={index}>
-                  <h3 className="text-lg font-medium text-gray-800">{edu.title}</h3>
-                  {edu.institution && <p className="text-gray-600">{edu.institution} | {edu.years}</p>}
-                  {!edu.institution && <p className="text-gray-600">{edu.years}</p>}
-                  {edu.details && <p className="text-gray-600">{edu.details}</p>}
-                </div>
-              ))}
-            </section>
-
-
-            <section>
               <h2 className="text-2xl font-semibold text-blue-800 mb-2">{t.certificates}</h2>
               <ul className="list-disc list-inside text-gray-600">
                 {t.certificatesList.map((cert, index) => (
@@ -356,18 +341,22 @@ export default function EnhancedCVTemplate() {
             </section>
 
             <section>
-              <h2 className="text-2xl font-semibold text-blue-800 mb-2">{t.environmentalWork}</h2>
-              {t.environmentalWorkDetails.map((work, index) => (
+              <h2 className="education-title text-2xl font-semibold text-blue-800 mb-2">{t.education}</h2>
+              {t.educationDetails.map((edu, index) => (
                 <div key={index}>
-                  <h3 className="text-lg font-medium text-gray-800">{work.organization} | {work.years}</h3>
-                  <p className="text-gray-600">{work.description}</p>
+                  <h3 className="text-lg font-medium text-gray-800">{edu.title}</h3>
+                  {edu.institution && <p className="text-gray-600">{edu.institution} | {edu.years}</p>}
+                  {!edu.institution && <p className="text-gray-600">{edu.years}</p>}
+                  {edu.details && <p className="text-gray-600">{edu.details}</p>}
                 </div>
               ))}
             </section>
+           
           </aside>
 
           <main className="w-2/3 space-y-6">
-          <section>
+
+            <section>
           <h2 className="text-2xl font-semibold text-blue-800 mb-4">{t.workExperienceTitle}</h2>
           {t.workExperienceData.map((job, index) => (
             <div key={index} className="mb-4">
@@ -380,18 +369,28 @@ export default function EnhancedCVTemplate() {
               </ul>
             </div>
               ))}
+            </section>
+
+            <section>
+              <h2 className="text-2xl font-semibold text-blue-800 mb-2">{t.environmentalWork}</h2>
+              {t.environmentalWorkDetails.map((work, index) => (
+                <div key={index}>
+                  <h3 className="text-lg font-medium text-gray-800">{work.organization} | {work.years}</h3>
+                  <p className="text-gray-600">{work.description}</p>
+                </div>
+              ))}
+            </section>
 
             <div className="qr-code-container">
-                    <Image
-                      src={qrCodeSrc}
-                      alt="QR Code for the CV URL"
-                      width={128}
-                      height={128}
-                    />
-                    <h3>Scan the QR code if you want to view this CV online</h3>
-                  </div>
+              <Image
+                 src={qrCodeSrc}
+                 alt="QR Code for the CV URL"
+                width={128}
+                height={128}
+              />
+                <h3>Scan the QR code if you want to view this CV online</h3>
+            </div>
 
-            </section>
           </main>
         </div>
       </div>

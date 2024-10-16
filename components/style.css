@@ -33,9 +33,9 @@
     .languages-section {
         page-break-after: always;
       }
-    .education-title {
+    /* .education-title {
         page-break-before: always;
-      }
+      } */
     .ngo-title {
         page-break-before: always;
       }
