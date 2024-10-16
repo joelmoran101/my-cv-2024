@@ -51,11 +51,12 @@ const translations = {
     languagesList: ['English - Advanced level, highly proficient in both written and spoken communication.', 'German - Upper-intermediate, conversationally fluent and comfortable in professional settings.', 'Spanish - basic level', 'Italian - basic level', 'Tagalog - mother tongue'],
     certificatesList: ['LEAN Yellow Belt', 'First Aid'],
     communityWorkDetails: {
-      title: "Digital Botschafter",
+      title: "Volunteer Digital Ambassador",
       organization: "Digital Botschafter RLP",
       years: "active since 2020",
-      description: "Help Others, especially senior citizens, use the internet and other digital technologies"
+      description: "Assist others, particularly senior citizens, in learning how to use smartphones, tablets, laptops, and PCs. Guide them through tasks such as mobile phone usage, navigating social media, making video calls, and other digital technologies."
     },
+
     environmentalWorkDetails: [
       {
         organization: "Luntiang Alyansa para sa Bundok Banahaw(LABB), Quezon Province PH",
@@ -166,7 +167,7 @@ const translations = {
     languagesList: ['Englisch - Fortgeschrittenes Niveau, sehr kompetent in sowohl schriftlicher als auch mündlicher Kommunikation.', 'Deutsch - Fortgeschritten, konversationell fließend und sicher in beruflichen Umgebungen.', 'Spanisch - Grundkenntnisse', 'Italienisch - Grundkenntnisse', 'Tagalog - Muttersprache'],
     certificatesList: ['LEAN Gelber Gürtel', 'Erste Hilfe'],
     communityWorkDetails: {
-      title: "Digitalbotschafter",
+      title: "Ehrenamtlicher Digitalbotschafter",
       organization: "Digitalbotschafter RLP",
       years: "aktiv seit 2020",
       description: "Unterstützung anderer, insbesondere Senioren, bei der Nutzung des Internets und anderer digitaler Technologien, z. Beispiel: Handy Nutzung, Social Media, Video Telefonie, etc."
@@ -174,12 +175,12 @@ const translations = {
     environmentalWorkDetails: [
       {
         organization: "Luntiang Alyansa para sa Bundok Banahaw(LABB), Quezon Provinz PH",
-        years: "1991 - 2001",
+        years: "1991 - 1997",
         description: "Mitbegründer der NGO, tätig als Community Organizer und Trainer"
       },
       {
         organization: "Manitou Stiftung, Crestone CO, USA",
-        years: "1986 - 1990",
+        years: "1994 - 1995",
         description: "Gast-Koordinator für ein Sommercamp für schwierige Jugendliche"
       }
     ],
@@ -332,15 +333,6 @@ export default function EnhancedCVTemplate() {
             </section>
 
             <section>
-              <h2 className="text-2xl font-semibold text-blue-800 mb-2">{t.communityWork}</h2>
-              <div>
-                <h3 className="text-lg font-medium text-gray-800">{t.communityWorkDetails.title}</h3>
-                <p className="text-gray-600">{t.communityWorkDetails.organization} | {t.communityWorkDetails.years}</p>
-                <p className="text-gray-600">{t.communityWorkDetails.description}</p>
-              </div>
-            </section>
-
-            <section>
               <h2 className="education-title text-2xl font-semibold text-blue-800 mb-2">{t.education}</h2>
               {t.educationDetails.map((edu, index) => (
                 <div key={index}>
@@ -379,6 +371,16 @@ export default function EnhancedCVTemplate() {
                   <p className="text-gray-600">{work.description}</p>
                 </div>
               ))}
+            </section>
+
+
+            <section>
+              <h2 className="text-2xl font-semibold text-blue-800 mb-2">{t.communityWork}</h2>
+              <div>
+                <h3 className="text-lg font-medium text-gray-800">{t.communityWorkDetails.title}</h3>
+                <p className="text-gray-600">{t.communityWorkDetails.organization} | {t.communityWorkDetails.years}</p>
+                <p className="text-gray-600">{t.communityWorkDetails.description}</p>
+              </div>
             </section>
 
             <div className="qr-code-container">
