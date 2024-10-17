@@ -147,21 +147,23 @@ const translations = {
     github: "https://github.com/joelmoran101/joelmoran101",
     educationDetails: [
       {
-        title: "Bedeutende Kurse im Rahmen eines Studiums der AB Philosophie teilgenommen.",
-        institution: "Universität der Philippinen, Los Banos",
-        years: "1978 - 1982",
-        details: "Mitglied der Beta Kappa Bruderschaft"
+        title: "Einjährige Eintauchen in östlicher Philosophie in verschiedenen Ashrams in Indien",
+        years: "1984 - 1985"
       },
+    
       {
         title: "Weiterführende Studien in östlicher Philosophie und Theologie zur Vertiefung des Verständnisses von Lebensprinzipien",
         institution: "Notre Dame Universität, Cotabato City Philippinen",
         years: "1983 - 1984",
         details: "Junior Oblates von Mary Immaculate, Missionarische Gemeinschaft"
       },
+
       {
-        title: "Einjährige Eintauchen in östlicher Philosophie in verschiedenen Ashrams in Indien",
-        years: "1984 - 1985"
-      }
+        title: "Bedeutende Kurse im Rahmen eines Studiums der AB Philosophie teilgenommen.",
+        institution: "Universität der Philippinen, Los Banos",
+        years: "1978 - 1982",
+        details: "Mitglied der Beta Kappa Bruderschaft"
+      },
     ],
     skillsList: ['Digitale Kommunikation & Relevante Projektplanungstools und Apps: PowerPoint, Excel, Snagit, GIMP, Doodly, Paint, Greenshot, Zoom, Skype, M365...', 'Projektmanagement: „Sehr Schmale Gasse“ (Very Narrow Alley - VNA) teilautomatisches Lager. Vertrat die lokalen Geschäftsinteressen und koordinierte die Kommunikation zwischen den verschiedenen Teammitgliedern.', 'Schulung & Workshop-Moderation: Als DIS Stream-Experte und SAP Power User. Schulung der Trainer und Endbenutzer in den Lager-/Vertriebsabteilungen der verschiedenen Standorte weltweit.', 'Frontend-Technologien: HTML, JavaScript, CSS, React, Tailwind, Redux, Formik', 'Backend-Technologien: Node, Express', 'Datenbanken: MongoDB, Cloudinary', 'CMS: WordPress & Joomla', 'Test-Tools: vitest, jest', 'Git: Github', 'TypeScript', 'Next.js', 'GIMP'],
     languagesList: ['Englisch - Fortgeschrittenes Niveau, sehr kompetent in sowohl schriftlicher als auch mündlicher Kommunikation.', 'Deutsch - Fortgeschritten, konversationell fließend und sicher in beruflichen Umgebungen.', 'Spanisch - Grundkenntnisse', 'Italienisch - Grundkenntnisse', 'Tagalog - Muttersprache'],
