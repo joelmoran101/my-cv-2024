@@ -108,7 +108,7 @@ const translations = {
           "Actively participated in various SAP-related projects and global implementations.",
           "Led the training of warehouse and distribution personnel for SAP integration at various branches in Naarden, Netherlands; Singapore; São Paulo, Brazil; Buenos Aires, Argentina; Johannesburg, South Africa; Mako, Hungary; Mumbai, India; and Cairo, Egypt.",
           "Contributed to process improvement by authoring job aids and participating in Kaizen (LEAN) initiatives.",
-          "Led the implementation of a new VNA warehouse (Very Narrow Alley) system for increased efficiency."
+          "Led the implementation of a new VNA warehouse (Very Narrow Aisle) system for increased efficiency."
         ]
       },
       {
@@ -154,7 +154,7 @@ const translations = {
     scanQRCode: "Scanne den QR Code, um dieses Lebenslauf online zu sehen und zwischen der deutschen und englischen Version wechseln zu können.",
     educationDetails: [
       {
-        title: "Einjährige Eintauchen in östlicher Philosophie in verschiedenen Ashrams in Indien",
+        title: "Einjähriges Eintauchen in östliche Philosophie in verschiedenen Ashrams in Indien",
         years: "1984 - 1985"
       },
     
@@ -166,7 +166,7 @@ const translations = {
       },
 
       {
-        title: "Bedeutende Kurse im Rahmen eines Studiums der AB Philosophie teilgenommen.",
+        title: "An verschiedenen Kursen im Rahmen eines Studiums der AB Philosophie teilgenommen.",
         institution: "Universität der Philippinen, Los Banos",
         years: "1978 - 1982",
         details: "Mitglied der Beta Kappa Bruderschaft"
@@ -224,7 +224,7 @@ const translations = {
           "Bot First-Line-Support für SAP-Benutzer in der Vertriebs- und Logistikabteilung.",
           "Überwachte Lageroperationen, sicherte effizientes Bestandsmanagement und Einhaltung von Sicherheitsprotokollen.",
           "Aktive Teilnahme an verschiedenen SAP-bezogenen Projekten und globalen Implementierungen.",
-          " Leitete die Schulung von Lager- und Vertriebspersonal zur SAP-Integration an verschiedene Niederlassungen in Naarden, NL; Singapure; Sao Paolo, Brazilien; Buenos Aires, Argentinien; Johannesburg, Süd-Afrika; Mako, Ungarn; Mumbai, Indien; und Cairo, Egypten.",
+          " Leitete die Schulung von Lager- und Vertriebspersonal zur SAP-Integration an verschiedene Niederlassungen in Naarden, NL; Singapure; Sao Paolo, Brasilien; Buenos Aires, Argentinien; Johannesburg, Süd-Afrika; Mako, Ungarn; Mumbai, Indien; und Kairo, Ägypten.",
           "Trug zur Prozessverbesserung bei durch Erstellung von Arbeitsanweisungen und Teilnahme an Kaizen (LEAN) Initiativen.",
           "Leitete die Implementierung eines neuen VNA-Lagersystems (Very Narrow Aisle) für erhöhte Effizienz."
         ]
