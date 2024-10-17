@@ -25,6 +25,8 @@ const translations = {
     location: "Hinterweiler, RLP Germany",
     linkedin: "www.linkedin.com/in/joel-moran-ph",
     github: "https://github.com/joelmoran101/joelmoran101",
+    scanQRCode: "Scan the QR code if you want to view this CV online and be able to toggle between the Deutsche and English versions.",
+
     educationDetails: [
       {
         title: "One Year Immersion in Eastern Philosophy at different Ashrams in India",
@@ -47,9 +49,13 @@ const translations = {
       }
      
     ],
+
     skillsList: ['Digital Communication & Relevant Project Planning Tools and Apps: Power Point, Excel, ,Snagit, GIMP, Doodly, Paint, Greenshot, Zoom, Skype, M365 ...' , 'Project Management: "Very Narrow Alley" (VNA) Semi-Automatic Warehouse. Represented the local business interests and coordinated communications between different team players.', 'Training & Workshop Facilitation: As DIS Stream Expert and SAP Power User. Trained the trainors and End-Users in the Warehouse / Distribution departments of the different sites worldwide.', 'Frontend Technologies: HTML, JavaScript, CSS, React, Tailwind, Redux, Formik', 'Backend Technologies: Node, Express', 'Databases: MongoDB, Cloudinary', 'CMS: WordPress & Joomla', 'Testing Tools: vitest, jest', 'Git: Github', 'typescript', 'Next.js'],
+    
     languagesList: ['English - Advanced level, highly proficient in both written and spoken communication.', 'German - Upper-intermediate, conversationally fluent and comfortable in professional settings.', 'Spanish - basic level', 'Italian - basic level', 'Tagalog - mother tongue'],
+    
     certificatesList: ['LEAN Yellow Belt', 'First Aid'],
+    
     communityWorkDetails: {
       title: "Volunteer Digital Ambassador",
       organization: "Digital Botschafter RLP",
@@ -145,6 +151,7 @@ const translations = {
     location: "Hinterweiler, RLP Deutschland",
     linkedin: "www.linkedin.com/in/joel-moran-ph",
     github: "https://github.com/joelmoran101/joelmoran101",
+    scanQRCode: "Scanne den QR Code, um dieses Lebenslauf online zu sehen und zwischen der deutschen und englischen Version wechseln zu können.",
     educationDetails: [
       {
         title: "Einjährige Eintauchen in östlicher Philosophie in verschiedenen Ashrams in Indien",
@@ -392,7 +399,7 @@ export default function EnhancedCVTemplate() {
                 width={128}
                 height={128}
               />
-                <h3>Scan the QR code if you want to view this CV online</h3>
+                <h3>{t.scanQRCode}</h3>
             </div>
 
           </main>
