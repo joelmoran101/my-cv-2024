@@ -54,7 +54,7 @@ const translations = {
     
     languagesList: ['English - Advanced level, highly proficient in both written and spoken communication.', 'German - Upper-intermediate, conversationally fluent and comfortable in professional settings.', 'Spanish - basic level', 'Italian - basic level', 'Tagalog - mother tongue'],
     
-    certificatesList: ['LEAN Yellow Belt', 'First Aid'],
+    certificatesList: ['Full-Stack Web Developer', 'Google AI Essentials', 'LEAN Yellow Belt'],
     
     communityWorkDetails: {
       title: "Volunteer Digital Ambassador",
@@ -174,7 +174,7 @@ const translations = {
     ],
     skillsList: ['Digitale Kommunikation & Relevante Projektplanungstools und Apps: PowerPoint, Excel, Snagit, GIMP, Doodly, Paint, Greenshot, Zoom, Skype, M365...', 'Projektmanagement: „Sehr Schmale Gasse“ (Very Narrow Alley - VNA) teilautomatisches Lager. Vertrat die lokalen Geschäftsinteressen und koordinierte die Kommunikation zwischen den verschiedenen Teammitgliedern.', 'Schulung & Workshop-Moderation: Als DIS Stream-Experte und SAP Power User. Schulung der Trainer und Endbenutzer in den Lager-/Vertriebsabteilungen der verschiedenen Standorte weltweit.', 'Frontend-Technologien: HTML, JavaScript, CSS, React, Tailwind, Redux, Formik', 'Backend-Technologien: Node, Express', 'Datenbanken: MongoDB, Cloudinary', 'CMS: WordPress & Joomla', 'Test-Tools: vitest, jest', 'Git: Github', 'TypeScript', 'Next.js', 'GIMP'],
     languagesList: ['Englisch - Fortgeschrittenes Niveau, sehr kompetent in sowohl schriftlicher als auch mündlicher Kommunikation.', 'Deutsch - Fortgeschritten, konversationell fließend und sicher in beruflichen Umgebungen.', 'Spanisch - Grundkenntnisse', 'Italienisch - Grundkenntnisse', 'Tagalog - Muttersprache'],
-    certificatesList: ['LEAN Gelber Gürtel', 'Erste Hilfe'],
+    certificatesList: ['Full-Stack Webentwickler', 'Google AI Essentials', 'LEAN Gelber Gürtel'],
     communityWorkDetails: {
       title: "Ehrenamtlicher Digitalbotschafter",
       organization: "Digitalbotschafter RLP",
